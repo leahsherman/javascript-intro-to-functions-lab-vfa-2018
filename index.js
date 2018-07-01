@@ -41,7 +41,7 @@ function sayHitoGrandma(string){
     response = "YES INDEED!";
   }else if(string===lowercase){
     response = "I can\'t hear you!";
-  }else
+  }else{
     response = "I love you,too";
 }
 return(response)
